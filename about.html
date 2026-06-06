@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="About rcsmaster – a software design shop for RCS and rich messaging integrations." />
+    <title>About Us – rcsmaster</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="images/hero.jpeg" />
+</head>
+<body>
+
+<!-- ========== HEADER ========== -->
+<header class="site-header">
+    <div class="container">
+        <a href="index.html" class="site-logo">
+            <img src="images/logo.png" alt="rcsmaster logo" />
+        </a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="3" y1="6"  x2="21" y2="6"/>
+                <line x1="3" y1="12" x2="21" y2="12"/>
+                <line x1="3" y1="18" x2="21" y2="18"/>
+            </svg>
+        </button>
+        <nav>
+            <ul class="site-nav" id="siteNav">
+                <li><a href="index.html"       >Home</a></li>
+                <li><a href="about.html"        class="active">About</a></li>
+                <li><a href="applications.html">Applications</a></li>
+                <li><a href="contact.html"     >Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- ========== PAGE HERO ========== -->
+<section class="page-hero">
+    <div class="container">
+        <h1>About Us</h1>
+    </div>
+</section>
+
+<!-- ========== CONTENT ========== -->
+<section class="section">
+    <div class="container">
+        <div class="prose">
+            <p>
+                We are a software design shop focused on integrating RCS and rich messaging
+                into your company's existing application infrastructure.
+            </p>
+            <p>
+                rcsmaster is a full-service application design house for enhancing business
+                communications through RCS messaging. We help enterprises unlock the power of
+                Rich Communication Services — the next generation of SMS — to deliver
+                interactive, media-rich messages directly to customers' native messaging apps.
+            </p>
+            <p>
+                Whether you need survey tooling, transactional notifications, or fully
+                branded conversational experiences, we design and build the integrations that
+                make it happen.
+            </p>
+        </div>
+
+        <div style="margin-top:3rem;">
+            <a href="contact.html"      class="btn btn-primary" style="margin-right:1rem;">Get in Touch</a>
+            <a href="applications.html" class="btn btn-outline">See Our Applications</a>
+        </div>
+    </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <img src="images/logo.png" alt="rcsmaster" style="width:160px;filter:brightness(0) invert(1);margin-bottom:.5rem;" />
+                <p>rcsmaster is a full-service application design house for enhancing business communications through RCS messaging.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="applications.html">Applications</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms &amp; Conditions</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 rcsmaster. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script>
+    document.getElementById('navToggle').addEventListener('click', function () {
+        document.getElementById('siteNav').classList.toggle('open');
+    });
+</script>
+</body>
+</html>

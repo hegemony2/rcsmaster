@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="rcsmaster Applications – RCS integrations for your enterprise." />
+    <title>Applications – rcsmaster</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="images/hero.jpeg" />
+</head>
+<body>
+
+<!-- ========== HEADER ========== -->
+<header class="site-header">
+    <div class="container">
+        <a href="index.html" class="site-logo">
+            <img src="images/logo.png" alt="rcsmaster logo" />
+        </a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="3" y1="6"  x2="21" y2="6"/>
+                <line x1="3" y1="12" x2="21" y2="12"/>
+                <line x1="3" y1="18" x2="21" y2="18"/>
+            </svg>
+        </button>
+        <nav>
+            <ul class="site-nav" id="siteNav">
+                <li><a href="index.html"       >Home</a></li>
+                <li><a href="about.html"       >About</a></li>
+                <li><a href="applications.html" class="active">Applications</a></li>
+                <li><a href="contact.html"     >Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- ========== PAGE HERO ========== -->
+<section class="page-hero">
+    <div class="container">
+        <h1>Applications</h1>
+    </div>
+</section>
+
+<!-- ========== APP CARDS ========== -->
+<section class="section">
+    <div class="container">
+        <p class="section-lead">
+            Our open-source RCS integrations are built to slot into your existing workflows.
+            Each application is designed for enterprise reliability and maximum engagement.
+        </p>
+
+        <div class="app-grid">
+
+            <!-- rcs-google-forms -->
+            <div class="app-card">
+                <div class="app-card-icon">📋</div>
+                <h3>rcs-google-forms</h3>
+                <p>
+                    Send a Google Form-based survey or questionnaire through RCS for maximum
+                    engagement. Leverage the rich interactive capabilities of RCS to drive
+                    higher response rates than traditional SMS or email surveys.
+                </p>
+                <a class="card-link" href="https://github.com/hegemony2/rcs-google-forms" target="_blank" rel="noopener">
+                    View on GitHub →
+                </a>
+                <p style="margin-top:.5rem;font-size:.8rem;color:var(--color-text-faded);">
+                    Requires repository access — <a href="contact.html">contact us</a> to request it.
+                </p>
+            </div>
+
+            <!-- placeholder card -->
+            <div class="app-card">
+                <div class="app-card-icon">💬</div>
+                <h3>More coming soon</h3>
+                <p>
+                    We are actively developing additional RCS integration tools. Get in touch
+                    to discuss a custom integration for your use case.
+                </p>
+                <a class="card-link" href="contact.html">Contact us →</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ========== CTA ========== -->
+<section class="section section-alt">
+    <div class="container">
+        <h2 class="section-title">Need a custom integration?</h2>
+        <p class="section-lead">
+            Every enterprise has different messaging workflows. We can design and build
+            bespoke RCS solutions that fit your stack.
+        </p>
+        <a href="contact.html" class="btn btn-primary">Talk to us</a>
+    </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <img src="images/logo.png" alt="rcsmaster" style="width:160px;filter:brightness(0) invert(1);margin-bottom:.5rem;" />
+                <p>rcsmaster is a full-service application design house for enhancing business communications through RCS messaging.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="applications.html">Applications</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms &amp; Conditions</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 rcsmaster. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script>
+    document.getElementById('navToggle').addEventListener('click', function () {
+        document.getElementById('siteNav').classList.toggle('open');
+    });
+</script>
+</body>
+</html>
